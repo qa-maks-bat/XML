@@ -1,0 +1,129 @@
+QA Course by Vadim Ksendzov 
+	 
+Group_30_QA
+
+GIT homework 1 (XML)
+	 
+Invironment: Windows 10, Notepad++
+
+
+Telegram: @maks_tbat 
+
+Name: Maksim Batrakou
+	 
+Location: Minsk, Belarus
+
+
+
+#!/bin/bash
+	 
+21. Создать внешний репозиторий c названием XML:
+	$ cd ~/Group_30_QA/GIT
+	$ git init XML
+	
+22. Клонировать репозиторий XML на локальный компьютер:
+	$ git clone https://github.com/qa-maks-bat/XML.git
+	 
+23. Внутри локального XML создать файл “new.xml”:
+	$ cd XML ; touch new.xml ; ls -la
+	 
+24. Добавить файл под гит:
+	$ git status
+	$ git add new.xml
+	 
+25. Закоммитить файл:
+	$ git status
+	$ git commit -m "Added an empty file in XML format: new.xml"
+	 
+26. Отправить файл на внешний GitHub репозиторий:
+	$ git status
+	$ git push	
+	$ git status
+	 	 
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML:
+	$ echo -e "<?xml version=\"1.0\" encoding=\"windows-1251\"?>\n<aboutme>\n    <info>\n        <course>\n            <coursename>QA Course by Vadim Ksendzov</coursename>\n            <groupname>Group_30_QA</groupname>\n            <taskname>GIT homework 1 (XML)</taskname>\n        </course>\n        <invironment>Windows 10, Notepad++</invironment>\n        <contacts>\n            <telegram>@maks_tbat</telegram>\n        </contacts>\n        <location>\n            <city>Minsk</city>\n            <country>Belarus</country>\n        </location>\n    </info>\n    <infoaboutme>\n        <person>\n            <name>Maksim</name>\n            <surname>Batrakou</surname>\n            <age>41</age>\n        </person>\n        <pets>\n            <petsnumber>1</petsnumber>\n        </pets>\n        <expectedsalary>\$2000 a month</expectedsalary>\n    </infoaboutme>\n</aboutme>" > new.xml ; cat new.xml 
+	 
+28. Отправить изменения на внешний репозиторий:
+	$ git status
+	$ git commit -am "Added the information about myself in XML format in the file: new.xml"
+	$ git status
+	$ git push
+	$ git status
+	
+29. Создать файл preferences.xml:
+	touch preferences.xml
+	 
+30. В файл preferences.xml” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна, которую хотели бы посетить) в формате XML:
+	$ echo -e "<?xml version=\"1.0\" encoding=\"windows-1251\"?>\n<aboutmyprefer>\n    <info>\n        <course>\n            <coursename>QA Course by Vadim Ksendzov</coursename>\n            <groupname>Group_30_QA</groupname>\n            <taskname>GIT homework 1 (XML)</taskname>\n        </course>\n        <invironment>Windows 10, Notepad++</invironment>\n        <contacts>\n            <telegram>@maks_tbat</telegram>\n        </contacts>\n        <location>\n            <city>Minsk</city>\n            <country>Belarus</country>\n        </location>\n    </info>\n    <myprefer>\n        <favmovie>Transformers\n</favmovie>\n        <favseries>Stranger Things</favseries>\n        <favfood>Pan-fried potatoes</favfood>\n        <favseason>Summer</favseason>\n        <wishcountry>Poland</wishcountry>\n    </myprefer>\n</aboutmyprefer>" > preferences.xml ; cat preferences.xml
+	 
+31. Создать файл sklls.xml, добавить информацию о скиллах, которые будут изучены на курсе в формате XML:
+	$ touch sklls.xml ; echo "<?xml version=\"1.0\" encoding=\"windows-1251\"?>
+<aboutmyskills>
+    <info>
+        <course>
+            <coursename>QA Course by Vadim Ksendzov</coursename>
+            <groupname>Group_30_QA</groupname>
+            <taskname>GIT homework 1 (XML)</taskname>
+        </course>
+        <invironment>Windows 10, Notepad++</invironment>
+        <contacts>
+            <telegram>@maks_tbat</telegram>
+        </contacts>
+        <location>
+            <city>Minsk</city>
+            <country>Belarus</country>
+        </location>
+    </info>
+    <futureskills title=\"About my skills that I will get on the QA Course by Vadim Ksendzov\">
+        <point01>01. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</point01>
+        <point02>02. Что такое клиент-серверная архитектура.</point02>
+        <point03>03. HTTP Методы запросов на сервер.</point03>
+        <point04>04. Коды ответов HTTP сервера.</point04>
+        <point05>05. Структуры HTTP запросов и ответов.</point05>
+        <point06>06. Что такое XML, XML. Их структура.</point06>
+        <point07>07. Тестирование API через Postman (JS, автотесты API).</point07>
+        <point08>08. Снятие и чтение логов c внешнего сервера.</point08>
+        <point09>09. Снифинг http web трафика через Charles и Fiddler.</point09>
+        <point10>10. Dev Tools веб браузеров (Google Chrome, FireFox).</point10>
+        <point11>11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов).</point11>
+        <point12>12. Мобильное тестирование.</point12>
+        <point13>13. Особенность iOS, Android, гайдлайны.</point13>
+        <point14>14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят).</point14>
+        <point15>15. Сборка Android приложений на Android Studio.</point15>
+        <point16>16. ADB (управление андройд девайсами).</point16>
+        <point17>17. Настройка прокси и vpn на iOS и Android.</point17>
+        <point18>18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</point18>
+        <point19>19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).</point19>
+        <point20>20. Основы bash скриптинг, автоматизация рутинных задач на сервере.</point20>
+        <point21>21. Доступ к удалённым серверам.</point21>
+        <point22>22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</point22>
+        <point23>23. База данных Postgres (установка, настройка и использование).</point23>
+        <point24>24. Нереляционная база данных Redis (установка, настройка и использование).</point24>
+        <point25>25. Нагрузочное тестирование в Jmeter.</point25>
+        <point26>26. Методология разработки Scrum.</point26>
+        <point27>27. Python. (Изучение основ. Создание клиент серверного приложения).</point27>
+    </futureskills>
+</aboutmyskills>" > sklls.xml ; cat sklls.xml
+		 
+32. Сделать коммит в одну строку:
+	$ git status ; git add preferences.xml sklls.xml ; git status ; git commit -m "Added two files in XML format with information about my preferences and my future skills that I will be able to get on the course: preferences.xml and sklls.xml" ; git status
+	
+33. Отправить сразу 2 файла на внешний репозиторий:
+	$ git push
+	 
+34. На веб интерфейсе создать файл bug_report.xml:
+	GitHub (Add file - Create new file - Fill in "Name your file")	
+	 	 
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+	GitHub (Write a commit massage and press "Commit new file")
+	 
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML:
+	GitHub (Go to file "bug_report.xml" - Edit this file - Fill in the file)
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+	GitHub (Write a commit massage and press "Commit changes")
+	 
+38. Синхронизировать внешний и локальный репозиторий XML:
+	$ git pull
+	 
+END
