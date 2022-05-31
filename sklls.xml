@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<aboutmyskills>
+    <info>
+        <course>
+            <coursename>QA Course by Vadim Ksendzov</coursename>
+            <groupname>Group_30_QA</groupname>
+            <taskname>GIT homework 1 (XML)</taskname>
+        </course>
+        <invironment>Windows 10, Notepad++</invironment>
+        <contacts>
+            <telegram>@maks_tbat</telegram>
+        </contacts>
+        <location>
+            <city>Minsk</city>
+            <country>Belarus</country>
+        </location>
+    </info>
+    <futureskills title="About my skills that I will get on the QA Course by Vadim Ksendzov">
+        <point01>01. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</point01>
+        <point02>02. Что такое клиент-серверная архитектура.</point02>
+        <point03>03. HTTP Методы запросов на сервер.</point03>
+        <point04>04. Коды ответов HTTP сервера.</point04>
+        <point05>05. Структуры HTTP запросов и ответов.</point05>
+        <point06>06. Что такое XML, XML. Их структура.</point06>
+        <point07>07. Тестирование API через Postman (JS, автотесты API).</point07>
+        <point08>08. Снятие и чтение логов c внешнего сервера.</point08>
+        <point09>09. Снифинг http web трафика через Charles и Fiddler.</point09>
+        <point10>10. Dev Tools веб браузеров (Google Chrome, FireFox).</point10>
+        <point11>11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов).</point11>
+        <point12>12. Мобильное тестирование.</point12>
+        <point13>13. Особенность iOS, Android, гайдлайны.</point13>
+        <point14>14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят).</point14>
+        <point15>15. Сборка Android приложений на Android Studio.</point15>
+        <point16>16. ADB (управление андройд девайсами).</point16>
+        <point17>17. Настройка прокси и vpn на iOS и Android.</point17>
+        <point18>18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</point18>
+        <point19>19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).</point19>
+        <point20>20. Основы bash скриптинг, автоматизация рутинных задач на сервере.</point20>
+        <point21>21. Доступ к удалённым серверам.</point21>
+        <point22>22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</point22>
+        <point23>23. База данных Postgres (установка, настройка и использование).</point23>
+        <point24>24. Нереляционная база данных Redis (установка, настройка и использование).</point24>
+        <point25>25. Нагрузочное тестирование в Jmeter.</point25>
+        <point26>26. Методология разработки Scrum.</point26>
+        <point27>27. Python. (Изучение основ. Создание клиент серверного приложения).</point27>
+    </futureskills>
+</aboutmyskills>
