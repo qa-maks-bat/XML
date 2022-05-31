@@ -1,1 +1,33 @@
-Start
+<?xml version="1.0" encoding="windows-1251"?>
+<title bugname="bugwidget">
+  	<widgetIcon value="widget size values">
+		    <widgetHeight>0</widgetHeight>
+	  	  <widgetWidth>0</widgetWidth>
+	  </widgetIcon>
+	  <bug_ID>102</bug_ID>
+	  <weight>
+		    <severity>Minor</severity>
+		    <priority>Low</priority>
+	  </weight>
+	  <conditions>
+		    <invironment>Redmi Note 8 M1908C3JG</invironment>
+		    <operSystem>Android 10</operSystem>
+		    <precondition>Open the App</precondition>
+	  </conditions>
+	  <str name="Steps to reproduce">
+		    <point01>1) click button 'Add widget'</point01>
+		    <point02>2) hide the application</point02>
+		    <point03>3) look at the widget icon</point03>
+	  </str>
+	  <results>
+		    <actResult>
+			       <arHeight>Height (H) parameter is set to '0'</arHeight>
+			       <arWidth>Width (W) parameter is set to '0'</arWidth>
+		    </actResult>
+		    <expResult>
+			      <erHeight>Height (H) parameter is in a value of the screen resolution settings set by the user</erHeight>
+			      <erWidth>Width (W) parameter is in a value of the screen resolution settings set by the user</erWidth>
+		    </expResult>
+	  </results>
+	  <attachments>https://drive.google.com/file/d/1vQ_dc2Dkg2FlycsTAk9e5Qx1jw9_6N3T/view?usp=sharing</attachments>
+</title>
