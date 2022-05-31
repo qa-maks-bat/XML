@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <aboutme>
-  <info>
-    <course>
-      <coursename>QA Course by Vadim Ksendzov</coursename>
-      <groupname>Group_30_QA</groupname>
-      <taskname>GIT homework 1 (JSON)</taskname>
-    </course>
-    <invironment>Windows 10, Notepad++</invironment>
-    <contacts>
-      <telegram>@maks_tbat</telegram>
-    </contacts>
-    <location>
-      <city>Minsk</city>
-      <country>Belarus</country>
-    </location>
-  </info>
-  <infoaboutme>
-    <person>
-      <name>Maksim</name>
-      <surname>Batrakou</surname>
-      <age>41</age>
-    </person>
-    <pets>
-      <petsnumber>1</petsnumber>
-    </pets>
-    <expectedsalary>$2000 a month</expectedsalary>
-  </infoaboutme>
+    <info>
+        <course>
+            <coursename>QA Course by Vadim Ksendzov</coursename>
+            <groupname>Group_30_QA</groupname>
+            <taskname>GIT homework 1 (JSON)</taskname>
+        </course>
+        <invironment>Windows 10, Notepad++</invironment>
+        <contacts>
+            <telegram>@maks_tbat</telegram>
+        </contacts>
+        <location>
+            <city>Minsk</city>
+            <country>Belarus</country>
+        </location>
+    </info>
+    <infoaboutme>
+        <person>
+            <name>Maksim</name>
+            <surname>Batrakou</surname>
+            <age>41</age>
+        </person>
+        <pets>
+            <petsnumber>1</petsnumber>
+        </pets>
+        <expectedsalary>$2000 a month</expectedsalary>
+    </infoaboutme>
 </aboutme>
